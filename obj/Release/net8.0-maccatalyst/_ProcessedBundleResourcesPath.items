@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\female_restroom.jpg" />
+    <BundleResource Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\male_restroom.jpg" />
+    <BundleResource Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

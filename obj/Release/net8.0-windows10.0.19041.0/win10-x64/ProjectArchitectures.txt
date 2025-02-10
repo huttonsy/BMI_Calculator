@@ -1,0 +1,1 @@
+C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\BMICalculatorMobileApp.csproj;x64
