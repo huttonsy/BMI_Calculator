@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp - Copy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-16T23:55:17.305</Modified>
+      <Modified>2025-02-17T00:06:19.601</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp - Copy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BMICalculatorMobileApp.dll">
       <PackagePath>BMICalculatorMobileApp.dll</PackagePath>
-      <Modified>2025-02-16T23:55:16.847</Modified>
+      <Modified>2025-02-17T00:06:16.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp - Copy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BMICalculatorMobileApp.exe</PackagePath>
-      <Modified>2025-02-16T23:55:16.856</Modified>
+      <Modified>2025-02-17T00:06:17.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp - Copy\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
