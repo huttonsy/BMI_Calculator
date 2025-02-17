@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculatorMobileApp.HealthRecommendationsPage"
+             Title="Health Recommendations">
+    <VerticalStackLayout Padding="20">
+        <Label x:Name="RecommendationLabel" 
+               Text="Recommendation: " 
+               FontSize="18" 
+               HorizontalOptions="Center" />
+
+        <Button Text="Back to Results"
+                Clicked="OnGoBackToResults"/>
+        <Button Text="Back to Home"
+                Clicked="OnGoBackToHome"/>
+    </VerticalStackLayout>
+</ContentPage>

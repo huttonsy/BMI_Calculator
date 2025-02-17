@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BMICalculatorMobileApp
-build_property.ProjectDir = C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp\
+build_property.ProjectDir = C:\Users\Sydney Hutton\source\repos\BMICalculatorMobileApp - Copy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,31 +22,43 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp/App.xaml]
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp/AppShell.xaml]
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp/MainPage.xaml]
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/BMIResultPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.BMIResultPage.xaml
+build_metadata.AdditionalFiles.TargetPath = BMIResultPage.xaml
+build_metadata.AdditionalFiles.RelativePath = BMIResultPage.xaml
+
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/HealthRecommPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.HealthRecommPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HealthRecommPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HealthRecommPage.xaml
+
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp/Resources/Styles/Colors.xaml]
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp/Resources/Styles/Styles.xaml]
+[C:/Users/Sydney Hutton/source/repos/BMICalculatorMobileApp - Copy/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BMICalculatorMobileApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

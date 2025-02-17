@@ -1,8 +1,9 @@
-﻿namespace BMICalculatorMobileApp {
-
+﻿namespace BMICalculatorMobileApp
+{
     public partial class MainPage : ContentPage
     {
         private string selectedGender = "";
+
         public MainPage()
         {
             InitializeComponent();
@@ -13,18 +14,18 @@
         {
             selectedGender = "Male";
             MaleFrame.BorderColor = Colors.Blue;
-            MaleFrame.BackgroundColor = Colors.LightBlue; 
+            MaleFrame.BackgroundColor = Colors.LightBlue;
             FemaleFrame.BorderColor = Colors.Transparent;
-            FemaleFrame.BackgroundColor = Colors.White; 
+            FemaleFrame.BackgroundColor = Colors.White;
         }
 
         private void OnFemaleSelected(object sender, EventArgs e)
         {
             selectedGender = "Female";
             FemaleFrame.BorderColor = Colors.Pink;
-            FemaleFrame.BackgroundColor = Colors.LightPink; 
+            FemaleFrame.BackgroundColor = Colors.LightPink;
             MaleFrame.BorderColor = Colors.Transparent;
-            MaleFrame.BackgroundColor = Colors.White; 
+            MaleFrame.BackgroundColor = Colors.White;
         }
 
         private void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
@@ -56,7 +57,7 @@
                 return;
             }
 
-            double bmi = (weight / (height * height)) * 703; 
+            double bmi = (weight / (height * height)) * 703;
             string healthStatus;
             string recommendation;
 
@@ -73,7 +74,7 @@
             else if (bmi < 29.9)
             {
                 healthStatus = "Overweight";
-                recommendation = "Reduce processed foods and focus on protein control.";
+                recommendation = "Reduce processed foods and focus on portion control.";
             }
             else
             {
@@ -81,9 +82,7 @@
                 recommendation = "Consult a healthcare provider for a tailored plan.";
             }
 
-            await DisplayAlert("Your calculated BMI results are:",
-                $"Gender: {selectedGender}\nBMI: {bmi:F1}\nHealth Status: {healthStatus}\n\nRecommendations:\n{recommendation}",
-                "OK");
+            await Shell.Current.GoToAsync($"BMIResultPage?bmi={bmi:F1}&category={Uri.EscapeDataString(healthStatus)}&recommendation={Uri.EscapeDataString(recommendation)}");
         }
 
     }

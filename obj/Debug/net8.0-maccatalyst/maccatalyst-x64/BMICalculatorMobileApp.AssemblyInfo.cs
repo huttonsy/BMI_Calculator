@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BMICalculatorMobileApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3a8caf2f1f4ec58a2e4e9138f17fe7d979cf92b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BMICalculatorMobileApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BMICalculatorMobileApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

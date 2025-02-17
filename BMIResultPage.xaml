@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculatorMobileApp.BMIResultPage"
+             Title="BMI Result">
+    <VerticalStackLayout Padding="20">
+        <Label x:Name="BMIResultLabel" 
+               Text="Your BMI: " 
+               FontSize="24" 
+               HorizontalOptions="Center" />
+
+        <Label x:Name="CategoryLabel" 
+               Text="Category: " 
+               FontSize="20" 
+               HorizontalOptions="Center" />
+
+        <Button Text="View Health Recommendations"
+                Clicked="OnGoToRecommendations"/>
+        <Button Text="Back to Home"
+                Clicked="OnGoBackToHome"/>
+    </VerticalStackLayout>
+</ContentPage>

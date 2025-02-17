@@ -1,22 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BMICalculatorMobileApp.MainPage"
              BackgroundColor="White">
-    <Grid Padding="20" RowSpacing="10">
-        <Grid.RowDefinitions>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-    </Grid.RowDefinitions>
-        
-    <Label Text="BMI Calculator" FontSize="24" FontAttributes="Bold" 
-         TextColor="Black" HorizontalOptions="Center" Grid.Row="0"/>
 
-        <StackLayout Orientation="Horizontal" Grid.Row="2" HorizontalOptions="Center">
+    <StackLayout Padding="20" Spacing="20">
+
+        <Label Text="Select Gender" FontSize="20" HorizontalOptions="Center"/>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
             <Frame x:Name="MaleFrame" BorderColor="Transparent" Padding="5" CornerRadius="10" BackgroundColor="White">
                 <StackLayout>
                     <Image Source="male_restroom.jpg" HeightRequest="100">
@@ -40,25 +32,19 @@
             </Frame>
         </StackLayout>
 
-        <Frame Grid.Row="3" Padding="10" CornerRadius="10" BackgroundColor="White">
+        <Frame Padding="10" CornerRadius="10" BackgroundColor="White">
             <StackLayout>
-                <Label Text="Weight (lbs):" FontSize="18" TextColor="Black"/>
-                <Slider x:Name="WeightSlider" Minimum="0" Maximum="300" Value="90" 
-                        ValueChanged="OnSliderValueChanged"/>
+                <Label Text="Weight (lbs)" FontSize="16" HorizontalOptions="Center" TextColor="Black"/>
+                <Slider x:Name="WeightSlider" Minimum="0" Maximum="300" Value="90" ValueChanged="OnSliderValueChanged"/>
                 <Label x:Name="WeightLabel" Text="90 lbs" FontSize="16" HorizontalOptions="Center" TextColor="Black"/>
-            </StackLayout>
-        </Frame>
 
-        <Frame Grid.Row="4" Padding="10" CornerRadius="10" BackgroundColor="White">
-            <StackLayout>
-                <Label Text="Height (in):" FontSize="18" TextColor="Black"/>
-                <Slider x:Name="HeightSlider" Minimum="0" Maximum="100" Value="50" 
-                        ValueChanged="OnSliderValueChanged"/>
+                <Label Text="Height (in)" FontSize="16" HorizontalOptions="Center" TextColor="Black"/>
+                <Slider x:Name="HeightSlider" Minimum="0" Maximum="100" Value="50" ValueChanged="OnSliderValueChanged"/>
                 <Label x:Name="HeightLabel" Text="50 in" FontSize="16" HorizontalOptions="Center" TextColor="Black"/>
             </StackLayout>
         </Frame>
 
-        <Button Text="Calculate your BMI" Clicked="OnCalculateBMI" Grid.Row="5"
-                BackgroundColor="Blue" TextColor="White" CornerRadius="20"/>
-    </Grid>
+        <Button Text="Calculate your BMI" Clicked="OnCalculateBMI" BackgroundColor="Blue" TextColor="White" CornerRadius="20"/>
+    </StackLayout>
+
 </ContentPage>

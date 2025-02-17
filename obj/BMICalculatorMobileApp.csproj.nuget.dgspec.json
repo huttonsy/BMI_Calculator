@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp\\BMICalculatorMobileApp.csproj": {}
+    "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp - Copy\\BMICalculatorMobileApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp\\BMICalculatorMobileApp.csproj": {
+    "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp - Copy\\BMICalculatorMobileApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp\\BMICalculatorMobileApp.csproj",
+        "projectUniqueName": "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp - Copy\\BMICalculatorMobileApp.csproj",
         "projectName": "BMICalculatorMobileApp",
-        "projectPath": "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp\\BMICalculatorMobileApp.csproj",
+        "projectPath": "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp - Copy\\BMICalculatorMobileApp.csproj",
         "packagesPath": "C:\\Users\\Sydney Hutton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp\\obj\\",
+        "outputPath": "C:\\Users\\Sydney Hutton\\source\\repos\\BMICalculatorMobileApp - Copy\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -82,7 +82,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             }
           },
@@ -127,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
@@ -147,7 +147,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             }
           },
@@ -180,7 +180,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
@@ -200,7 +200,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             }
           },
@@ -234,7 +234,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -277,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
